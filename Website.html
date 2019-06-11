@@ -1,0 +1,92 @@
+<html>
+    <!--
+    Name: Manuel Olmos 
+    Date Created: 5/29/2019
+    Most recent revision:
+    -->
+	<head>
+		<title>Home Page</title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico|Permanent+Marker&display=swap" rel="stylesheet">
+		
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="restaurantStyles.css" />
+		<!--Font awesome link-->
+		<script src="https://kit.fontawesome.com/219ad2c72e.js"></script>
+		<style>
+		body {
+			background-color: lightblue !important;
+			}
+		</style>
+		
+	</head>
+	<body>
+	
+	<div class="container">
+	
+	<header class="jumbotron">
+	
+	<h1 class="text-center" class="font-family: 'Lobster', cursive;"> Chu Chu's <em><strong>Chow</em></strong>
+	</h1>
+	
+	
+	<!--I decided to combine the required Jumbotron with the Caurosel since the requirement 
+	they both required new location announcement. It didn't make sense to keep them seperate 
+	and make the site look too crowded.-->
+    <div id="carouselContent" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active text-center p-4">
+                 <p>We're opening a new location!</p>
+            </div>
+            <div class="carousel-item text-center p-4">
+				<p>We're rolling out our seasonal menu, with special options for this season.</p>
+            </div>
+			<div class="carousel-item text-center p-4">
+				<p>The Drink of the Month is SG Special Brew.</p>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+	
+	</header>
+	<noscript><strong>This site is best viewed with JavaScript enabled.</strong></noscript>	
+	<nav> <!-- The nav element will include navigation buttons or links -->
+	<!--Glyphicons was dropped when bootstrap 4 started so It's either adding a png in front of the word home or adding Awesome fonts, which I tried and left in as a note. It looks bad and makes the webpage look inconsistant without adding icons to the rest of the page. I've left this here as proof that I attempted this route-->
+		<a class="btn badge-pill" href="Website.html"><img src="home-2x.png" alt="home"><!--i class="fas fa-home"-->Home</a>
+		<a class="btn badge-pill" href="Menu.html">Menu</a>
+		<a class="btn badge-pill" href="ContactUs.html">Contact Us</a>
+		<div class="clear-float"></div>
+	</nav>	
+	<br/>
+	<!--I'm not happy about this part here, I feel like this is what the instructions were dictating otherwise I would just remove the color from the id below.-->
+	<div id="true">	
+	<img src="C:\Users\Manny\Downloads\food-3083223_1920.jpg" class="rounded mx-auto d-block" class="Responsive image"
+	alt="Picture of and American Breakfast" 
+	style="width: 400px; 
+		length: 150px;"/>
+	<br/>
+	
+	<p class="text-center" style="color: white">Opened by two good friends, Chu Chu's Chow is a staple here in Dallas. After a fire burned it down in early 2005 our community rallied and helped rebuild the restaurant. We dedicate ourselves to superior service and we love giving back to our community. Come try our American classics, fill up on some cold root beer, and maybe stay for karaoke night! We'll see you soon!</p>
+	</div>
+	<hr />
+	
+	<footer>
+	<address>123 Main Street, Dallas, TX, 76289<br>817-817-8178</address>
+	</footer>
+	
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+	</html>
